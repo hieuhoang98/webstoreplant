@@ -1,0 +1,36 @@
+.fixed-support-customer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding:10px 0 10px 0;
+	background-color: white;
+	z-index: 99999999999999999999999999999;
+}
+
+.fixed-support-customer span{
+	background-color: red;
+	 color: white;
+	 padding: 10px 100px 10px 20px;
+}
+.view-more{
+	transition-duration: 400ms;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    min-width: 150px;
+    height: 46px;
+    color: #ffffff;
+    background-color: #70c745;
+    border: 2px solid #70c745;
+    border-radius: 2px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 42px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.view-more:hover{
+	color: #70c745;
+	background-color: white;
+}
